@@ -1,0 +1,8 @@
+{
+	"name": "jurdic",
+	"dependencies": {
+		"equalHeights": null,
+		"jquery": "2.2.0",
+		"responsivetest": "1.2.1"
+	}
+}
