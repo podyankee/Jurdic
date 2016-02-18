@@ -19139,7 +19139,8 @@ strong, b {
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6, .button {
+h1, h2, h3, h4, h5, h6, .button,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "RobotoCondensedBold", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -19880,6 +19881,43 @@ ul, li {
 
 .new-item h4 {
   margin-bottom: 12px;
+}
+
+.link-item {
+  display: block;
+  padding: 14px;
+  border: #ffcc00 4px solid;
+  background-color: #fff;
+  color: #111;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.link-item:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.link-item:hover {
+  text-decoration: none;
+  color: #111;
+}
+
+.link-item .h4 {
+  font-size: 16px;
+  line-height: 18px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link-item img {
+  width: 34px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 1200px) {

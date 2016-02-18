@@ -4,6 +4,8 @@ $(function() {
 	
 	$(".new-item-text").equalHeights();
 	
+	$(".link-item").equalHeights();
+	
 	$(".top-line .sf-menu").superfish({
 		cssArrows: false,
 		delay: 200
