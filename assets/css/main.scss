@@ -5,7 +5,7 @@
 @import "0-tools/animate";
 @import "0-tools/ionicons.min";
 @import "0-tools/libs/bootstrap/css/bootstrap.min";
-//@import "0-tools/libs/bootstrap/css/bootstrap_skin";
+@import "0-tools/libs/magnific-popup/magnific-popup";
 @import "0-tools/libs/font-awesome/css/font-awesome.min";
 @import "0-tools/libs/superfish/dist/css/superfish";
 @import "0-tools/libs/owl.carousel.min";
@@ -17,6 +17,7 @@
 
 @import "2-modules/buttons";
 
+@import "3-sections/forms";
 @import "3-sections/header";
 @import "3-sections/section-teaser";
 @import "3-sections/section-news";
