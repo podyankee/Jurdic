@@ -19597,6 +19597,19 @@ body {
   color: #111;
 }
 
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 999;
+  background-image: url(../img/preloader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .hidden {
   display: none;
 }
@@ -19995,6 +20008,7 @@ ul, li {
 
 .slider-wrap {
   position: relative;
+  display: none;
 }
 
 .slider-wrap .slider-nav-container {
@@ -20221,6 +20235,34 @@ ul, li {
 
 .mm-menu .fa {
   display: none;
+}
+
+.isnohome .top-line .sf-menu > li > a {
+  padding: 15px 28px;
+}
+
+.isnohome .top-panel {
+  padding: 25px 0;
+}
+
+.isnohome .slider .slide {
+  padding: 120px 0 40px;
+}
+
+.isnohome .slider h2 {
+  font-size: 2.25em;
+}
+
+.isnohome .owl-dots, .isnohome .slide-wrap p, .isnohome .slide-img-wrap {
+  display: none;
+}
+
+.isnohome .slide-content .col-md-6 {
+  width: 100%;
+}
+
+.isnohome .slider-wrap .slider-nav div {
+  top: 220px;
 }
 
 .sect-teaser {
@@ -20609,6 +20651,75 @@ ul, li {
 .popup-form input {
   border: #ffcc00 solid 4px;
   padding: 6px 17px;
+}
+
+.content {
+  padding: 60px 0;
+}
+
+.content article h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.content article img {
+  max-width: 100%;
+}
+
+.content .service-item:hover .service-item-image::before {
+  opacity: 0;
+}
+
+.main-aside .top-panel-box {
+  margin: 30px 0;
+}
+
+.main-aside .top-panel-box h4 {
+  font-family: "RobotoBold", sans-serif;
+  font-size: 1.375em;
+  margin-bottom: 20px;
+}
+
+.main-aside .top-panel-box li {
+  display: block;
+  max-width: 100%;
+  opacity: 1;
+  padding: 0;
+}
+
+.main-aside .top-panel-box li.active a {
+  background-color: #ffcc00;
+  color: #fff;
+  font-family: "RobotoCondensed", sans-serif;
+}
+
+.main-aside .top-panel-box li.active a .fa {
+  color: #ffeb99;
+}
+
+.main-aside .top-panel-box li a {
+  color: #111;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  border-bottom: #f0f0f0 1px solid;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-indent: 10px;
+}
+
+.main-aside .top-panel-box li a:hover {
+  color: #22133e;
+}
+
+.main-aside .top-panel-box li a .fa {
+  font-size: 14px;
+  color: #ffcc00;
+  top: 12px;
+  margin-right: 6px;
 }
 
 @media only screen and (max-width: 1200px) {

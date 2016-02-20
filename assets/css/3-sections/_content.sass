@@ -1,0 +1,54 @@
+.content
+	padding: 60px 0
+	article
+		h1
+			margin-top: 0
+			font-size: em(32px)
+		img
+			max-width: 100%
+	.service-item
+		&:hover
+			.service-item-image
+				&::before
+					opacity: 0
+	
+.main-aside
+	.top-panel-box
+		margin: 30px 0
+		
+		h4
+			font-family: "RobotoBold", sans-serif
+			font-size: em(22px)
+			margin-bottom: 20px
+		li
+			display: block
+			max-width: 100%
+			opacity: 1
+			padding: 0
+			&.active
+				a
+					background-color: $accent
+					color: #fff
+					font-family: "RobotoCondensed", sans-serif
+					.fa
+						color: lighten($accent, 30%)
+			a
+				color: #111
+				font-size: em(18px)
+				text-transform: uppercase
+				display: block
+				padding: 
+					top: 8px
+					bottom: 8px
+					left: 20px
+				border-bottom: #f0f0f0 1px solid
+				transition: all .5s ease
+				text-indent: 10px
+				&:hover
+					color: $main-color
+	
+				.fa
+					font-size: 14px
+					color: $accent
+					top: 12px
+					margin-right: 6px

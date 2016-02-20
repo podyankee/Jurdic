@@ -1,5 +1,6 @@
 $(function() {
 	
+	$(".slider-wrap").slideDown();
 	
 	$(".popup-with-move-anim").magnificPopup({
 		type: 'inline',
@@ -116,5 +117,7 @@ $(function() {
 	};
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
+	
+	$(".preloader").fadeOut();
 
 });
